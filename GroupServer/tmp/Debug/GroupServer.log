@@ -1,0 +1,57 @@
+﻿Build started 8/11/2019 12:58:32 PM.
+     1>Project "D:\SOURCES\Corsair Clean Source\GroupServer\Proj\GroupServer.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\SOURCES\Corsair Clean Source\GroupServer\Proj\..\src" /I"D:\SOURCES\Corsair Clean Source\GroupServer\Proj\..\..\..\Common\Server\sdk\include" /I"D:\SOURCES\Corsair Clean Source\GroupServer\Proj\..\..\..\Common\Util\include" /I"D:\SOURCES\Corsair Clean Source\GroupServer\Proj\..\..\..\Common\Common\include" /I"D:\SOURCES\Corsair Clean Source\GroupServer\Proj\..\..\..\Common\CaLua\include" /I"D:\SOURCES\Corsair Clean Source\GroupServer\Proj\..\..\..\Common\ICUHelper\inc" /I"D:\SOURCES\Corsair Clean Source\GroupServer\Proj\..\..\..\Common\icu\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\SOURCES\Corsair Clean Source\GroupServer\Proj\..\tmp\Debug\\" /Fd"D:\SOURCES\Corsair Clean Source\GroupServer\Proj\..\tmp\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /EHa ..\src\DBConnect.cpp ..\src\Friend.cpp ..\src\GroupServerApp.cpp ..\src\GroupServerAppChat.cpp ..\src\GroupServerAppFrnd.cpp ..\src\GroupServerAppGuld.cpp ..\src\GroupServerAppInit.cpp ..\src\GroupServerAppMaster.cpp ..\src\GroupServerAppPrsn.cpp ..\src\GroupServerAppServ.cpp ..\src\GroupServerAppTeam.cpp ..\src\GroupSMain.cpp ..\src\Guild.cpp ..\src\GuildMember.cpp ..\src\Invitation.cpp ..\src\LuaFunc.cpp ..\src\Master.cpp ..\src\Parser.cpp ..\src\Player.cpp ..\src\Script.cpp ..\src\SessionChat.cpp ..\src\Team.cpp ..\src\TeamMember.cpp
+         TeamMember.cpp
+     1>d:\sources\corsair clean source\groupserver\src\teammember.h(5): fatal error C1083: Cannot open include file: 'RunBiDirectChain.h': No such file or directory
+         Team.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         SessionChat.cpp
+     1>d:\sources\corsair clean source\groupserver\src\sessionchat.h(5): fatal error C1083: Cannot open include file: 'PreAlloc.h': No such file or directory
+         Script.cpp
+     1>d:\sources\corsair clean source\groupserver\src\script.h(10): fatal error C1083: Cannot open include file: 'lua.h': No such file or directory
+         Player.cpp
+     1>d:\sources\corsair clean source\groupserver\src\player.cpp(3): fatal error C1083: Cannot open include file: 'excp.h': No such file or directory
+         Parser.cpp
+     1>d:\sources\corsair clean source\groupserver\src\parser.h(13): fatal error C1083: Cannot open include file: 'util.h': No such file or directory
+         Master.cpp
+     1>d:\sources\corsair clean source\groupserver\src\invitation.h(5): fatal error C1083: Cannot open include file: 'PreAlloc.h': No such file or directory
+         LuaFunc.cpp
+     1>d:\sources\corsair clean source\groupserver\src\luafunc.h(10): fatal error C1083: Cannot open include file: 'dbccommon.h': No such file or directory
+         Invitation.cpp
+     1>d:\sources\corsair clean source\groupserver\src\invitation.h(5): fatal error C1083: Cannot open include file: 'PreAlloc.h': No such file or directory
+         GuildMember.cpp
+     1>d:\sources\corsair clean source\groupserver\src\guildmember.h(5): fatal error C1083: Cannot open include file: 'RunBiDirectChain.h': No such file or directory
+         Guild.cpp
+     1>d:\sources\corsair clean source\groupserver\src\guild.cpp(3): fatal error C1083: Cannot open include file: 'dstring.h': No such file or directory
+         GroupSMain.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         GroupServerAppTeam.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         GroupServerAppServ.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         GroupServerAppPrsn.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         GroupServerAppMaster.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         GroupServerAppInit.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverappinit.cpp(4): fatal error C1083: Cannot open include file: 'IniFile.h': No such file or directory
+         GroupServerAppGuld.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         GroupServerAppFrnd.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         GroupServerAppChat.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         Generating Code...
+         Compiling...
+         GroupServerApp.cpp
+     1>d:\sources\corsair clean source\groupserver\src\groupserverapp.h(5): fatal error C1083: Cannot open include file: 'ThreadPool.h': No such file or directory
+         Friend.cpp
+     1>d:\sources\corsair clean source\groupserver\src\invitation.h(5): fatal error C1083: Cannot open include file: 'PreAlloc.h': No such file or directory
+         DBConnect.cpp
+     1>d:\sources\corsair clean source\groupserver\src\invitation.h(5): fatal error C1083: Cannot open include file: 'PreAlloc.h': No such file or directory
+     1>Done Building Project "D:\SOURCES\Corsair Clean Source\GroupServer\Proj\GroupServer.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.45
