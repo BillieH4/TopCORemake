@@ -1,0 +1,1 @@
+call devenv InfoNet/Proj/InfoNet.sln /build Release

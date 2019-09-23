@@ -1,0 +1,1 @@
+call devenv ICUHelper/Proj/ICUHelper.sln /build Release
