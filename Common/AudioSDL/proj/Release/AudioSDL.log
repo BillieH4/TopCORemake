@@ -1,0 +1,20 @@
+﻿Build started 7/24/2019 7:28:17 PM.
+     1>Project "D:\SOURCES\Corsair Clean Source\Common\AudioSDL\proj\AudioSDL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"..\..\SDL-1.2.7\INCLUDE" /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\AudioResource.cpp ..\src\AudioSDL.cpp ..\src\lock.cpp ..\src\SDL_Wrapper.cpp
+         AudioResource.cpp
+         AudioSDL.cpp
+         lock.cpp
+         SDL_Wrapper.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"../lib\AudioSDL.lib" /NOLOGO Release\AudioResource.obj
+         Release\AudioSDL.obj
+         Release\lock.obj
+         Release\SDL_Wrapper.obj
+         AudioSDL.vcxproj -> D:\SOURCES\Corsair Clean Source\Common\AudioSDL\proj\../lib\AudioSDL.lib
+     1>Done Building Project "D:\SOURCES\Corsair Clean Source\Common\AudioSDL\proj\AudioSDL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.72
