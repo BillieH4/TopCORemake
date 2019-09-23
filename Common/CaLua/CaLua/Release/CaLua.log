@@ -1,0 +1,25 @@
+﻿Build started 7/24/2019 7:31:19 PM.
+     1>Project "D:\SOURCES\Corsair Clean Source\Common\CaLua\CaLua\CaLua.vcxproj" on node 2 (Build target(s)).
+     1>Project "D:\SOURCES\Corsair Clean Source\Common\CaLua\CaLua\CaLua.vcxproj" (1) is building "D:\SOURCES\Corsair Clean Source\Common\CaLua\Lua\lua50.vcxproj" (2:3) on node 2 (GetResolvedLinkLibs target(s)).
+     2>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\obj\) contains files shared from another project (lualib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     2>Done Building Project "D:\SOURCES\Corsair Clean Source\Common\CaLua\Lua\lua50.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\../lib/CaLua.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../lib lualib.lib lua50.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\exports.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\../lib\CaLua.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\../lib/CaLua.lib" /MACHINE:X86 /SAFESEH /MACHINE:I386 /DLL .\Release/CaLua_avltree.obj
+         .\Release/CaLua_function.obj
+         .\Release/CaLua_hash.obj
+         .\Release/CaLua_helper.obj
+         .\Release/CaLua_luafuncs.obj
+         .\Release/CaLua_main.obj
+         .\Release/CaLua_parser.obj
+         .\Release/CaLua_stack.obj
+         .\Release/CaLua_structure.obj
+         .\Release/CaLua_vmstack.obj
+         "D:\SOURCES\Corsair Clean Source\Common\CaLua\lib\lua50.lib"
+         "D:\SOURCES\Corsair Clean Source\Common\CaLua\lib\lualib.lib"
+            Creating library .\../lib/CaLua.lib and object .\../lib/CaLua.exp
+         CaLua.vcxproj -> D:\SOURCES\Corsair Clean Source\Common\CaLua\CaLua\.\../lib\CaLua.dll
+     1>Done Building Project "D:\SOURCES\Corsair Clean Source\Common\CaLua\CaLua\CaLua.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.50
