@@ -1,0 +1,65 @@
+﻿Build started 7/24/2019 7:28:59 PM.
+     1>Project "D:\SOURCES\Corsair Clean Source\Common\CaLua\Lua\lua50.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy- /D WIN32 /D NDEBUG /D _LIB /D _MBCS /GF- /Gm- /MT /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\obj/" /Fd".\../lib\lua50.pdb" /Gd /TC /analyze- /errorReport:prompt lapi.c lcode.c ldebug.c ldo.c ldump.c lfunc.c lgc.c llex.c lmem.c lobject.c lopcodes.c lparser.c lstate.c lstring.c ltable.c ltests.c ltm.c lundump.c lvm.c lzio.c
+         lapi.c
+         lcode.c
+         ldebug.c
+         ldo.c
+         ldump.c
+         lfunc.c
+         lgc.c
+         llex.c
+         lmem.c
+         lobject.c
+     1>lobject.c(165): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>lobject.c(174): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>lobject.c(177): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>lobject.c(179): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>lobject.c(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>lobject.c(187): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(186) : see declaration of 'strncat'
+     1>lobject.c(188): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>lobject.c(191): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>lobject.c(192): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         lopcodes.c
+         lparser.c
+         lstate.c
+         lstring.c
+         ltable.c
+         ltests.c
+         ltm.c
+         lundump.c
+         lvm.c
+     1>lvm.c(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         lzio.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\lua50.lib" /NOLOGO /NODEFAULTLIB .\obj/lapi.obj
+         .\obj/lcode.obj
+         .\obj/ldebug.obj
+         .\obj/ldo.obj
+         .\obj/ldump.obj
+         .\obj/lfunc.obj
+         .\obj/lgc.obj
+         .\obj/llex.obj
+         .\obj/lmem.obj
+         .\obj/lobject.obj
+         .\obj/lopcodes.obj
+         .\obj/lparser.obj
+         .\obj/lstate.obj
+         .\obj/lstring.obj
+         .\obj/ltable.obj
+         .\obj/ltests.obj
+         .\obj/ltm.obj
+         .\obj/lundump.obj
+         .\obj/lvm.obj
+         .\obj/lzio.obj
+         lua50.vcxproj -> D:\SOURCES\Corsair Clean Source\Common\CaLua\Lua\.\../lib\lua50.lib
+     1>Done Building Project "D:\SOURCES\Corsair Clean Source\Common\CaLua\Lua\lua50.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.47
